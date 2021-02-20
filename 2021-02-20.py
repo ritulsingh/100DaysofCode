@@ -117,3 +117,26 @@ print("free" in txt)
 # Check if "expensive" is NOT present in the following text:
 txt = "The best things in life are free!"
 print("expensive" not in txt)
+
+# Slicing-> You can return a range of characters by using the slice syntax. Specify the start index and the end index, separated by a colon, to return a part of the string.
+b = "Hello, World!"
+print(b[2:5])
+
+# Slice From Start
+print(b[:5])
+
+# Slice from the end
+print(b[5:])
+
+# Negative Indexing -> Use negative indexes to start the slice from the end of the string:
+b = "Hello, World!"
+print(b[-5:-2])
+
+# Use the format() method to insert numbers into strings:
+age = 36
+txt = "My name is John, and I am {}"
+print(txt.format(age))
+
+# The escape character allows you to use double quotes when you normally would not be allowed:
+txt = "We are the so-called \"Vikings\" from the north."
+print(txt)
